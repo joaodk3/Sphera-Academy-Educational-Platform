@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;300;700&display=swap');
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+font-size: 18px;
+font-family: 'Balsamiq Sans', sans-serif;
+}
+
+header nav {
+display: inline-flex;
+justify-content: space-between;
+width: 100%;
+}
+
+nav ul {
+  text-decoration: none;
+  display: inline-flex;
+  margin: 10px 10px;
+  align-items: center;
+  
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: greenyellow;
+  font-weight: 700;
+} 
+
+.sl {
+margin: 10px 30px; 
+}
+
+.sl button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.sl button:hover {
+color: greenyellow;
+}
+
+.sl i {
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.sing-up-container  {
+  display: inline-flex;
+  justify-content: space-around;
+  margin: 50px;
+  font-family: 'Saira Condensed', sans-serif;
+  height: 500px;
+}
+
+.imgt {
+ max-width: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.imgt img {
+  width: 80%;
+}
+
+.signup {
+  width: 40%;
+  
+}
+
+.signup .intro {
+max-width: 70%;
+text-align: left;
+margin-bottom: 10px;
+font-size: 15px;
+}
+
+.signup form .email-container {
+  margin: 10px 0px;
+  padding: 20px 0;
+}
+.signup form .email-container p, .signup form .password-container p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.signup form .email-container input, .signup form .password-container input {
+  font-size: 15px;
+  border : 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  width: 70%;
+}
+
+.submit-container {
+  margin: 10px 0 ;
+}
+
+.submit-container input {
+padding: 10px;
+font-size: 15px;
+border-radius: 5px;
+background-color: greenyellow;
+}
+
+.policies {
+  margin: 10px 0;
+}
+
+.sign-up-methods {
+
+}
+
+.sign-up-methods .text p {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.social-medias-icons {
+  display: inline-flex;
+  justify-self: flex-start;
+}
+.social-medias-icons i {
+  margin-top: 10px;
+  margin-right: 20px;
+  color: black;
+}
+
+.social-medias-icons i:hover {
+color: greenyellow;
+}
