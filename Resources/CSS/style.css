@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
 * { 
   margin: 0;
   padding: 0;
@@ -8,8 +9,11 @@
 }
 
 header {
-font-size: 18px;
-font-family: 'Balsamiq Sans', sans-serif;
+font-size: 20px;
+font-family: 'Saira Condensed', sans-serif;
+position: fixed;
+background-color: white;
+width: 100%;
 }
 
 header nav {
@@ -66,9 +70,10 @@ color: greenyellow;
 .sing-up-container  {
   display: inline-flex;
   justify-content: space-around;
-  margin: 50px;
+  margin-top: 100px;
   font-family: 'Saira Condensed', sans-serif;
   height: 500px;
+  margin-bottom: 100px;
 }
 
 .imgt {
@@ -123,10 +128,7 @@ background-color: greenyellow;
 
 .policies {
   margin: 10px 0;
-}
-
-.sign-up-methods {
-
+  width: 70%;
 }
 
 .sign-up-methods .text p {
@@ -147,3 +149,107 @@ background-color: greenyellow;
 .social-medias-icons i:hover {
 color: greenyellow;
 }
+
+.goal-container {
+margin-top: 70px;
+display: inline-flex;
+justify-content: space-around;
+}
+
+.goal-goal {
+  width: 40%;
+}
+
+.goal-container .text h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.goal-button {
+  display:flex;
+  flex-direction: column;
+}
+
+.goal-button button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  text-align: left;
+  font-family: 'Saira Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.goal-button p{
+  font-family: sans-serif;
+  color:rgb(18, 43, 12);
+  padding: 5px;
+  font-weight: bold;
+  display: none;
+}
+
+#description1 {
+  display: block;
+}
+
+.goal1,.goal2,.goal3{
+  border-top: 2px solid black;
+  padding: 15px; 
+}
+
+.goal1:hover, .goal2:hover, .goal3:hover {
+  background-color: greenyellow;
+  font-weight: 700;
+  box-shadow: 5px 5px;
+}
+
+.goal-courses {
+  width: 60%;
+  margin-top: 64.5px;
+  background-image: url(https://1.bp.blogspot.com/-hB_JSF9p3bY/X4d8epgXMjI/AAAAAAAJk9E/kRxZPx0M_QUzc09WRsoXpnkMdiSGVHJ1ACLcBGAsYHQ/s2048/USTA1149351_20190517_NCAA2_JMM13697.jpg);
+  background-size: 100%;
+  border: 2px solid black;
+}
+
+.first2courses,.second2courses {
+  display: flex;
+}
+
+
+.goal1course1, .goal1course2, .goal1course3, .goal1course4{
+  border: 1px solid black;
+  width: 40%;
+  height: 120px; 
+  margin: 70px 50px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.90;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.goal1course1:hover, .goal1course2:hover, .goal1course3:hover, .goal1course4:hover {
+  background-color: greenyellow;
+  box-shadow: 10px 10px black;
+  cursor: pointer;
+}
+
+.goal1course1 p, .goal1course2 p, .goal1course3 p, .goal1course4 p{
+  margin-top: 35px;
+  padding: 10px 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.goal1course1 p:hover {
+  box-shadow: 10px; 
+}
+
+
+
+
+
