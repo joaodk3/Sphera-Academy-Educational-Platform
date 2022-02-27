@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+
 * { 
   margin: 0;
   padding: 0;
@@ -96,7 +97,7 @@ color: greenyellow;
 max-width: 70%;
 text-align: left;
 margin-bottom: 10px;
-font-size: 15px;
+font-size: 20px;
 }
 
 .signup form .email-container {
@@ -111,7 +112,7 @@ font-size: 15px;
   font-size: 15px;
   border : 1px solid grey;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   width: 70%;
 }
 
@@ -163,8 +164,7 @@ justify-content: space-around;
 .goal-container .text h2 {
   font-family: sans-serif;
   font-size: 30px;
-  margin-bottom: 10px;
-  margin-top: 20px;
+  margin: 20px 0px 10px 20px;
 }
 
 .goal-button {
@@ -197,12 +197,12 @@ justify-content: space-around;
   display: block;
 }
 
-.goal1,.goal2,.goal3{
+.goal1,.goal2,.goal3, .goal4, .goal5, .goal6{
   border-top: 2px solid black;
   padding: 15px; 
 }
 
-.goal1:hover, .goal2:hover, .goal3:hover {
+.goal1:hover, .goal2:hover, .goal3:hover, .goal4:hover, .goal5:hover, .goal6:hover {
   background-color: greenyellow;
   font-weight: 700;
   box-shadow: 5px 5px;
@@ -213,13 +213,13 @@ justify-content: space-around;
   margin-top: 64.5px;
   background-image: url(https://1.bp.blogspot.com/-hB_JSF9p3bY/X4d8epgXMjI/AAAAAAAJk9E/kRxZPx0M_QUzc09WRsoXpnkMdiSGVHJ1ACLcBGAsYHQ/s2048/USTA1149351_20190517_NCAA2_JMM13697.jpg);
   background-size: 100%;
+  opacity: 0.9;
   border: 2px solid black;
 }
 
 .first2courses,.second2courses {
   display: flex;
 }
-
 
 .goal1course1, .goal1course2, .goal1course3, .goal1course4{
   border: 1px solid black;
@@ -239,10 +239,11 @@ justify-content: space-around;
 }
 
 .goal1course1 p, .goal1course2 p, .goal1course3 p, .goal1course4 p{
-  margin-top: 35px;
+  margin-top: 20px;
   padding: 10px 10px;
   color: black;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .goal1course1 p:hover {
